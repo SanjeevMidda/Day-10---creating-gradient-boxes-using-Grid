@@ -1,0 +1,39 @@
+* {
+    margin:0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 40vw;
+    border:1px solid black;
+    gap: 20px;
+    margin: 20px;
+}
+
+.first-box {
+background: linear-gradient(green, yellow);
+grid-column: 1/1;
+grid-row: 1;
+
+}
+
+.second-box {
+background: linear-gradient(red, blue);
+height: 300px;
+}
+
+.third-box{
+background: linear-gradient(purple, yellow);
+height: 300px;
+}
+
+.forth-box {
+background: linear-gradient(pink, grey);
+grid-column: 1/4;
+}
+
+.first-box, .second-box, .third-box, .forth-box {
+border-radius: 10px;
+}
